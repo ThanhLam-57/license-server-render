@@ -16,4 +16,4 @@ ENV ASPNETCORE_URLS=http://+:10000
 
 EXPOSE 10000
 
-ENTRYPOINT ["dotnet","license-server-render.dll"]
+ENTRYPOINT ["dotnet","LicenseKeyServer.dll"]
